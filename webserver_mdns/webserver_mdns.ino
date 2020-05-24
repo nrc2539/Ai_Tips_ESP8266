@@ -63,6 +63,7 @@ void setup()
 
 void loop()
 {
+  MDNS.update();
   server.handleClient();
 }
 
